@@ -6,7 +6,7 @@ b. What is a pull request?
 - A pull request (PR) is a proposal to merge a set of changes from one branch into another. In a pull request, collaborators can review and discuss the proposed set of changes before they integrate the changes into the main codebase. In the current software development landscape, adopting automated processes, including integrating PRs with CI/CD pipelines, is recognized as a leading approach within the data science domain.
 
 c. How do I open up a pull request?
--To open a pull request:
+- To open a pull request:
  1. Push your changes to a branch in your repository
  2. Navigate to your repository on GitHub.com
  3. In the "Branch" menu, choose the branch that contains your commits.
@@ -36,4 +36,4 @@ g. What is the main branch?
 - The main branch (formerly named 'master') in a Git repository is the primary branch that typically represents the latest stable version of the project. It often serves as the default branch from which releases are made. The trend of transitioning from 'master' to 'main' or 'default' branch names reflects a desire to align terminology with the collaborative nature of version control, fostering a more welcoming environment for all contributors.
 
 h. Besides our initial commit if it is a new repository, should we directly push our changes directly into the main branch?
-- Since the main branch is critical to the project, it is often protected from direct pushes or force pushes to prevent accidental changes or disruptions. It's a best practice to create a new branch for each feature or bug fix, make changes on that branch, open a pull request for review, discussion and testing, and then merge those changes into the main branch.
+- It's generally not recommended to push changes directly to the main branch, especially in collaborative environments. As the main branch is critical to the project, it is often protected from direct pushes or force pushes to prevent accidental changes or disruptions. It's a best practice to create a new branch for each feature or bug fix, make changes on that branch, open a pull request for review, discussion and testing, and then merge those changes into the main branch.
