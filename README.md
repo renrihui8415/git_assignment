@@ -7,12 +7,12 @@ b. What is a pull request?
 
 c. How do I open up a pull request?
 - To open a pull request:
- 1. Push your changes to a branch in your repository
- 2. Navigate to your repository on GitHub.com
- 3. In the "Branch" menu, choose the branch that contains your commits.
- 4. Click Compare & pull request to create a pull request.
- 5 Select the branch with your changes as the "compare" branch and the branch you'd like to merge into as the "base" branch.
- 6. Review the changes, add a title and description, and click "Create pull request".
+  1. Push your changes to a branch in your repository
+  2. Navigate to your repository on GitHub.com
+  3. In the "Branch" menu, choose the branch that contains your commits.
+  4. Click Compare & pull request to create a pull request.
+  5. Select the branch with your changes as the "compare" branch and the branch you'd like to merge into as the "base" branch.
+  6. Review the changes, add a title and description, and click "Create pull request".
 
 d. Give me a step by step guide on how to add someone to your repository.
 - To add someone to your repository:
